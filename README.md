@@ -19,7 +19,7 @@ and then use the following method
     ctx = use getApplicationContext();
 
     jarLocation = /storage/emulated... or /storage/sdcard.. or File.getAbsolutePath()
-    (note that you need READ_PERMISSION to read that jar)
+    (note that in some cases like reading from sd on android, you also need READ_PERMISSION to read that jar)
     
     classPath = inside your jar, choose which class you want to get/instantiate (with package name) (e.g com.xyz.FooClass)
 
